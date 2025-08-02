@@ -3,10 +3,8 @@ import random
 import math
 import os
 
-# Initialize Pygame
 pygame.init()
 
-# Constants
 SCREEN_WIDTH = 300
 SCREEN_HEIGHT = 600
 BLOCK_SIZE = 30
@@ -14,11 +12,9 @@ FPS = 10
 FALL_TIME = 500
 HIGH_SCORE_FILE = "highscore.txt"
 
-# Colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 
-# Tetromino shapes and colors
 SHAPES = {
     "I": ([[1, 1, 1, 1]], (0, 255, 255)),
     "O": ([[1, 1], [1, 1]], (255, 255, 0)),
@@ -233,4 +229,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-#mmmmmmmmmmmmeeeeeeeeeeeeeeeeeeeeoooooooooooooooooooowwwwwwwwwwwwwwwwwwww
+
+
+#mmmmmmmmmmmmmmmmmmeeeeeeeeeeeeeeeeeeeoooooooooooowwwwwwwwwwwwwwwwmeowmeowmmmmmmmmmmmmmmmmmmmmmmeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeooooooooooooooooooooooooowwwwwwwwwwwwwwwwwwwww meow meow
